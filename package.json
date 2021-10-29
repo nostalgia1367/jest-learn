@@ -1,0 +1,22 @@
+{
+  "name": "jest-learn",
+  "version": "1.0.0",
+  "description": "jest-learn description",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostalgia1367/jest-learn.git"
+  },
+  "author": "nostalgia1367",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nostalgia1367/jest-learn/issues"
+  },
+  "homepage": "https://github.com/nostalgia1367/jest-learn#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
