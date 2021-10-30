@@ -3,4 +3,7 @@
 
 ```
 $ npm install jest --save-dev
+
+### 사용방법
+$ npm test
 ```
