@@ -10,8 +10,6 @@ it('함수 호출은 3번 됩니다', () => {
     expect(mockFn.mock.calls.length).toBe(2);
 });
 
-
-
 it('mockFn이 한번 이상 호출?', () => {
     expect(mockFn).toBeCalled();
 });
