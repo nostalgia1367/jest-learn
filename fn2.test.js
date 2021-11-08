@@ -70,11 +70,14 @@ const fn = require('./fn');
 /**
  * Exception Throw
  */
-test("에러가 나나요?", () => {
-    //expect( () => fn.throwErr()).toThrow();
-    expect( () => fn.throwErr()).toThrow('err');
-    //expect( () => fn.throwErr()).toThrow('eeeeee');
-});
+// test("에러가 나나요?", () => {
+//     //expect( () => fn.throwErr()).toThrow();
+//     expect( () => fn.throwErr()).toThrow('err');
+//     //expect( () => fn.throwErr()).toThrow('eeeeee');
+// });
+
+
+
 
 
 /**
