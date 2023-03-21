@@ -1,4 +1,4 @@
-const fn = require('../fn');
+const fn = require('../../fn');
 
 /*
     callback을 사용할 때는 done 인자를 꼭 받아야 함.
@@ -28,13 +28,12 @@ const fn = require('../fn');
 //     //     expect(age).toBe(30);
 //     // });
 
-//     //보다 간단히 작성하고 싶으면 matcher를 이용하여 
+//     //보다 간단히 작성하고 싶으면 matcher를 이용하여
 //     // resolves, rejects
 //     return expect(fn.getAge()).resolves.toBe(30);
-    
+
 //     //return expect(fn.getAge()).rejects.toMatch('err');
 // });
-
 
 /**
  * async > await 처리
@@ -44,7 +43,6 @@ const fn = require('../fn');
 //     expect(age).toBe(30);
 //     //await expect(fn.getAge()).resolves.toBe(30);
 // });
-
 
 let user;
 
@@ -100,19 +98,16 @@ describe("describe 작업", () => {
 });
 */
 
-
-
 /**
  * skip : 해당 테스트함수를 skip
- * only : 해당 테스트함수만 실행 
+ * only : 해당 테스트함수만 실행
  */
 
 let num = 0;
-test("0 + 1 = 1", () => {
-    expect( fn.add(0, 1)).toBe(1);
+test('0 + 1 = 1', () => {
+  expect(fn.add(0, 1)).toBe(1);
 });
 
-test.only("0 + 2 = 2", () => {
-    expect( fn.add(0, 2)).toBe(2);
+test.only('0 + 2 = 2', () => {
+  expect(fn.add(0, 2)).toBe(2);
 });
-
